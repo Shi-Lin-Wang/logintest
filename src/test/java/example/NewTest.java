@@ -36,7 +36,7 @@ public class NewTest {
 
   @BeforeTest
   public void beforeTest() {
-    System.setProperty("webdriver.chrome.driver", "C:/Program Files (x86)/Jenkins/workspace/LoginTest/chromedriver.exe");
+    System.setProperty("webdriver.chrome.driver", "C:/Program Files (x86)/Jenkins/workspace/loginttest/chromedriver.exe");
     driver = new ChromeDriver();
     baseUrl = "http://localhost:8004/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
